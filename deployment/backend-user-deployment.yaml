@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: docker.io/lolade1234/udagram-api-user:v1
+        image: docker.io/lolade1234/udagram-api-user:v3
         ports:
         - containerPort: 80
         resources:
