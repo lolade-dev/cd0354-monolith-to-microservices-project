@@ -32,7 +32,7 @@ jobs:
             docker tag udagram-frontend lolade1234/udagram-frontend:v3
 
             docker build -t reverseproxy ./udagram-reverseproxy
-            docker tag udagram-reverseproxy lolade1234/udagram-reverseproxy:v3
+            docker tag reverseproxy lolade1234/udagram-reverseproxy:v3
 
             echo "-------- All images succesfully built----------"
             echo " ------- login in to hub--------"
